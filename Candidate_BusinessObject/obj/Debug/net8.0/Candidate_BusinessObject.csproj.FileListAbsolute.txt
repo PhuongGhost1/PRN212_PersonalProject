@@ -1,0 +1,14 @@
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\bin\Debug\net8.0\Candidate_BusinessObject.deps.json
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\bin\Debug\net8.0\Candidate_BusinessObject.runtimeconfig.json
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\bin\Debug\net8.0\Candidate_BusinessObject.dll
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\bin\Debug\net8.0\Candidate_BusinessObject.pdb
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObject.csproj.AssemblyReference.cache
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObject.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObject.AssemblyInfoInputs.cache
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObject.AssemblyInfo.cs
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObject.csproj.CoreCompileInputs.cache
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObject.dll
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\refint\Candidate_BusinessObject.dll
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObject.pdb
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObject.genruntimeconfig.cache
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\ref\Candidate_BusinessObject.dll

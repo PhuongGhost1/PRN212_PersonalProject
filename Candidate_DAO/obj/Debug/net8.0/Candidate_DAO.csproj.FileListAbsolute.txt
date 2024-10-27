@@ -1,0 +1,15 @@
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\bin\Debug\net8.0\Candidate_DAO.deps.json
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\bin\Debug\net8.0\Candidate_DAO.dll
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\bin\Debug\net8.0\Candidate_DAO.pdb
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\bin\Debug\net8.0\Candidate_BusinessObject.dll
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\bin\Debug\net8.0\Candidate_BusinessObject.pdb
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\obj\Debug\net8.0\Candidate_DAO.csproj.AssemblyReference.cache
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\obj\Debug\net8.0\Candidate_DAO.GeneratedMSBuildEditorConfig.editorconfig
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\obj\Debug\net8.0\Candidate_DAO.AssemblyInfoInputs.cache
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\obj\Debug\net8.0\Candidate_DAO.AssemblyInfo.cs
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\obj\Debug\net8.0\Candidate_DAO.csproj.CoreCompileInputs.cache
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\obj\Debug\net8.0\Candidat.A763094E.Up2Date
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\obj\Debug\net8.0\Candidate_DAO.dll
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\obj\Debug\net8.0\refint\Candidate_DAO.dll
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\obj\Debug\net8.0\Candidate_DAO.pdb
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_DAO\obj\Debug\net8.0\ref\Candidate_DAO.dll

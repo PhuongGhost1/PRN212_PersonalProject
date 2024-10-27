@@ -1,0 +1,25 @@
+﻿<Window x:Class="CandidateManagement_HoangTrongPhuong.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CandidateManagement_HoangTrongPhuong"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF94BEAE" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Margin="140,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="526" Height="37" TextChanged="txtEmail_TextChanged"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Margin="140,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="526" Height="37" TextChanged="txtPassword_TextChanged"/>
+        <Label Content="Enter email" HorizontalAlignment="Left" Margin="140,78,0,0" VerticalAlignment="Top" Width="70" Foreground="#FFF4E5E5"/>
+        <Label Content="Enter password" HorizontalAlignment="Left" Margin="140,168,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.558,0.079" Foreground="#FFF1E9E9"/>
+        <Button Content="Login" HorizontalAlignment="Center" Margin="0,264,0,0" VerticalAlignment="Top" Height="40" Width="318" Click="Button_Click" Background="#FF4DE83F"/>
+        <Button Content="Cancel" HorizontalAlignment="Center" Margin="0,320,0,0" VerticalAlignment="Top" Height="38" Width="318" Background="#FFE23434"/>
+        <Label Content="User Management System" HorizontalAlignment="Center" Margin="0,26,0,0" VerticalAlignment="Top" Width="296" FontSize="24" Foreground="#FFFFF3F3"/>
+
+    </Grid>
+</Window>

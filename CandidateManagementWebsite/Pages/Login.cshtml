@@ -1,0 +1,25 @@
+﻿@page
+@model LoginModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-left">
+    <h1 class="display-4 text-center">Login Form</h1>
+    <form method="post">
+        <div class="col-12">
+            <div class="row mt-3 mb-3">
+                <label class="control-label">Username</label>
+                <input name="txtUsername" type="text" class="mx-2 pb-3" /> </br>
+            </div>
+            <div class="row mb-3">
+                <label class="control-label">Password</label>
+                <input name="txtPwd" type="password" class="mx-2 pb-3" /> </br>
+            </div>
+            <div class="row mt-5 col-4" style="margin-left:450px;">
+                <input type="submit" class="btn btn-primary mb-3 p-4" value="Login" name="btnLogin" />
+                <input type="reset" class="btn btn-danger p-4" value="Cancel" name="btnCancel" />
+            </div>
+        </div>
+    </form>
+</div>
