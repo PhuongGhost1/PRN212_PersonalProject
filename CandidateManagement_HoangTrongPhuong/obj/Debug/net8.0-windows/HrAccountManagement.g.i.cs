@@ -141,7 +141,8 @@ namespace CandidateManagement_HoangTrongPhuong {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/CandidateManagement_HoangTrongPhuong;component/hraccountmanagement.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/CandidateManagement_HoangTrongPhuong;V1.0.0.0;component/hraccountmanagement.xaml" +
+                    "", System.UriKind.Relative);
             
             #line 1 "..\..\..\HrAccountManagement.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

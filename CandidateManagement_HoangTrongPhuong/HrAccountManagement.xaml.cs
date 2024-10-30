@@ -89,52 +89,47 @@ namespace CandidateManagement_HoangTrongPhuong
             {
                 if (string.IsNullOrWhiteSpace(candidateId.Text))
                 {
-                    MessageBox.Show("Id chưa được lựa chọn!");
+                    MessageBox.Show("Candidate ID has not been selected!");
+                    return;
+                }
+
+                var existingCandidate = _candidateProfile.GetCandidateProfile(candidateId.Text);
+                if (existingCandidate != null)
+                {
+                    MessageBox.Show("A candidate with this ID already exists!");
+                    return;
+                }
+
+                CandidateProfile candidateProfile = new CandidateProfile
+                {
+                    CandidateId = candidateId.Text,
+                    Fullname = fullName.Text,
+                    ProfileUrl = ImgURL.Text,
+                    Birthday = birthday.SelectedDate,
+                    ProfileShortDescription = description.Text,
+                    PostingId = (JobPostingSelected.SelectedItem as JobPosting)?.PostingId
+                };
+
+                if (candidateProfile.PostingId == null)
+                {
+                    MessageBox.Show("Job Posting has not been selected!");
+                    return;
+                }
+
+                bool isSucceed = _candidateProfile.AddCandidateProfile(candidateProfile);
+                if (isSucceed)
+                {
+                    MessageBox.Show("Candidate added successfully!");
+                    LoadHrAccountsAsync();
                 }
                 else
                 {
-                    var candidate = _candidateProfile.GetCandidateProfile(candidateId.Text);
-                    if (candidate != null)
-                    {
-                        MessageBox.Show("Candidate found with ID: " + candidate.CandidateId);
-                        MessageBox.Show("Id đã tồn tại!!");
-                    }
-                    else
-                    {
-                        CandidateProfile candidateProfile = new CandidateProfile();
-                        candidateProfile.CandidateId = candidateId.Text;
-                        candidateProfile.Fullname = fullName.Text;
-                        candidateProfile.ProfileUrl = ImgURL.Text;
-                        candidateProfile.Birthday = birthday.SelectedDate;
-                        candidateProfile.ProfileShortDescription = description.Text;
-
-                        if (JobPostingSelected.SelectedItem is JobPosting selectedJobPosting)
-                        {
-                            candidateProfile.PostingId = selectedJobPosting.PostingId;
-                            candidateProfile.Posting = selectedJobPosting;
-                        }
-                        else
-                        {
-                            MessageBox.Show("JobPosting chưa được lựa chọn!");
-                            return;
-                        }
-
-                        bool isSucceed = _candidateProfile.AddCandidateProfile(candidateProfile);
-                        if (isSucceed) 
-                        {
-                            MessageBox.Show("Da them thanh vien thanh cong!");
-                            LoadHrAccountsAsync();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Them thanh vien that bai!");
-                        }
-                    }
-                }  
+                    MessageBox.Show("Failed to add candidate!");
+                }
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Khong the them!!!");
+                MessageBox.Show("An error occurred while adding the candidate: " + ex.Message);
             }
         }
 
