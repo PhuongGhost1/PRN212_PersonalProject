@@ -258,3 +258,7 @@ D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhu
 D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\CandidateManagementWebsite\bin\Debug\net8.0\Candidate_Repository.pdb
 D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\CandidateManagementWebsite\bin\Debug\net8.0\Candidate_Service.pdb
 D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\CandidateManagementWebsite\bin\Debug\net8.0\Candidate_DAO.pdb
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\CandidateManagementWebsite\obj\Debug\net8.0\CandidateManagementWebsite.MvcApplicationPartsAssemblyInfo.cs
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\CandidateManagementWebsite\obj\Debug\net8.0\CandidateManagementWebsite.sourcelink.json
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\CandidateManagementWebsite\bin\Debug\net8.0\X.PagedList.dll
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\CandidateManagementWebsite\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll

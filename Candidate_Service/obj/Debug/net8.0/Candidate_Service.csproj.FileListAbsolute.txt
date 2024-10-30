@@ -17,3 +17,4 @@ D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhu
 D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_Service\obj\Debug\net8.0\refint\Candidate_Service.dll
 D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_Service\obj\Debug\net8.0\Candidate_Service.pdb
 D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_Service\obj\Debug\net8.0\ref\Candidate_Service.dll
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_Service\obj\Debug\net8.0\Candidate_Service.sourcelink.json

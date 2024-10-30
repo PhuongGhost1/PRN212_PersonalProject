@@ -15,3 +15,4 @@ D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhu
 D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_Repository\obj\Debug\net8.0\refint\Candidate_Repository.dll
 D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_Repository\obj\Debug\net8.0\Candidate_Repository.pdb
 D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_Repository\obj\Debug\net8.0\ref\Candidate_Repository.dll
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_Repository\obj\Debug\net8.0\Candidate_Repository.sourcelink.json

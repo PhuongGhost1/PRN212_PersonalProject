@@ -17,6 +17,6 @@ namespace Candidate_Service
         }
         public Task<List<Hraccount>> GetHraccountsAsync() => _hrAccountRepo.GetAccounts();
 
-        public Hraccount GetHrAccountsByEmailAsync(string email) => _hrAccountRepo.GetHrAccountByEmail(email);
+        public async Task<Hraccount> GetHrAccountsByEmailAsync(string email) => await _hrAccountRepo.GetHrAccountByEmail(email);
     }
 }

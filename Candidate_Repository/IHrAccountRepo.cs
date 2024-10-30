@@ -10,6 +10,6 @@ namespace Candidate_Repository
     public interface IHrAccountRepo
     {
         Task<List<Hraccount>> GetAccounts();
-        Hraccount GetHrAccountByEmail(string email);
+        Task<Hraccount> GetHrAccountByEmail(string email);
     }
 }

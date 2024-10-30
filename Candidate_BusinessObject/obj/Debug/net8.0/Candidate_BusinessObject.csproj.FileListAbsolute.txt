@@ -12,3 +12,4 @@ D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhu
 D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObject.pdb
 D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObject.genruntimeconfig.cache
 D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\ref\Candidate_BusinessObject.dll
+D:\University\kì 7(5.9.2024)\PRN221\Study\PRN221PE_FA22_TrialTest_HoangTrongPhuong\Candidate_BusinessObject\obj\Debug\net8.0\Candidate_BusinessObject.sourcelink.json

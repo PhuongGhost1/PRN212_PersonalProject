@@ -10,6 +10,6 @@ namespace Candidate_Service
     public interface IHrAccountService
     {
         Task<List<Hraccount>> GetHraccountsAsync();
-        Hraccount GetHrAccountsByEmailAsync(string email);
+        Task<Hraccount> GetHrAccountsByEmailAsync(string email);
     }
 }

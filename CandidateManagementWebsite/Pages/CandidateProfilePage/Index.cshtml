@@ -1,5 +1,6 @@
 ﻿@page
 @model CandidateManagementWebsite.Pages.CandidateProfilePage.IndexModel
+@using X.PagedList.Mvc.Core
 
 @{
     ViewData["Title"] = "Index";
@@ -19,31 +20,42 @@
             <a asp-page="Create" class="btn btn-primary">Create New</a>
         }
     }
-    
+    <form method="get">
+        <div class="form-group">
+            <label>Username</label>
+            <input type="text" asp-for="UserName" class="form-control" placeholder="Search by username" />
+        </div>
+        <div class="form-group">
+            <label>Birthday</label>
+            <input type="date" asp-for="Birthday" class="form-control" placeholder="Search by birthday" />
+        </div>
+        </br>
+        <button type="submit" class="btn btn-primary">Search</button>
+    </form>
 </p>
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.CandidateProfile[0].Fullname)
+                @Html.DisplayNameFor(model => model.CandidateProfiles[0].Fullname)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CandidateProfile[0].Birthday)
+                @Html.DisplayNameFor(model => model.CandidateProfiles[0].Birthday)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CandidateProfile[0].ProfileShortDescription)
+                @Html.DisplayNameFor(model => model.CandidateProfiles[0].ProfileShortDescription)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CandidateProfile[0].ProfileUrl)
+                @Html.DisplayNameFor(model => model.CandidateProfiles[0].ProfileUrl)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.CandidateProfile[0].Posting.PostingId)
+                @Html.DisplayNameFor(model => model.CandidateProfiles[0].Posting.PostingId)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.CandidateProfile) {
+@foreach (var item in Model.CandidateProfiles) {
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Fullname)
@@ -74,3 +86,15 @@
 }
     </tbody>
 </table>
+
+<div class="text-center mt-4">
+    <nav aria-label="Page navigation">
+        @Html.PagedListPager(Model.CandidateProfiles, page => Url.Page("Index", new { pageNumber = page }), new PagedListRenderOptions
+   {
+       UlElementClasses = new[] { "pagination", "justify-content-center" },
+       LiElementClasses = new[] { "page-item" },
+       PageClasses = new[] { "page-link" },
+       ActiveLiElementClass = "active"
+   })
+    </nav>
+</div>

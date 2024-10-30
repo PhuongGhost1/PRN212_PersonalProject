@@ -30,8 +30,6 @@ namespace CandidateManagement_HoangTrongPhuong
             Hraccount hraccount = await _accountService.GetHrAccountsByEmailAsync(txtEmail.Text);
             if (hraccount != null && hraccount.Password.Equals(txtPassword.Text))
             {
-                MessageBox.Show("Have data!");
-
                 HrAccountManagement hrAccountManagement = new HrAccountManagement(hraccount.MemberRole.Value);
                 hrAccountManagement.Show();
 

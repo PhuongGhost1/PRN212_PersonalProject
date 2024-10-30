@@ -11,7 +11,7 @@ namespace Candidate_Repository
     public class HrAccountRepo : IHrAccountRepo
     {
         public async Task<List<Hraccount>> GetAccounts() => HrAccountDAO.Instance.GetHraccounts();
-
-        public Hraccount GetHrAccountByEmail(string email) => HrAccountDAO.Instance.GetHrAccountByEmail(email);
+         
+        public async Task<Hraccount> GetHrAccountByEmail(string email) => HrAccountDAO.Instance.GetHrAccountByEmail(email);
     }
 }

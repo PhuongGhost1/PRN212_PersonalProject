@@ -18,12 +18,12 @@ namespace CandidateManagementWebsite.Pages
         {
         }
 
-        public void OnPost()
+        public async void OnPost()
         {
             string email = Request.Form["txtUsername"];
             string password = Request.Form["txtPwd"];
 
-            Hraccount account = _service.GetHrAccountsByEmailAsync(email);
+            Hraccount account = await _service.GetHrAccountsByEmailAsync(email);
             if (account != null && account.Password.Equals(password))
             {
                 string RoleID = account.MemberRole.ToString();
@@ -32,7 +32,7 @@ namespace CandidateManagementWebsite.Pages
             }
             else
             {
-                Redirect("/Error");
+                Response.Redirect("/Error");
             }
         }
     }

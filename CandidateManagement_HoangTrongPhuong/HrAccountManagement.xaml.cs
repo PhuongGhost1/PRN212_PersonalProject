@@ -52,6 +52,13 @@ namespace CandidateManagement_HoangTrongPhuong
                     break;
                 case 2:
                     this.btn_Add.IsEnabled = false;
+                    this.btn_Add_Copy1.IsEnabled = false;
+                    break;
+                case 3:
+                    this.btn_Add.IsEnabled = false;
+                    this.btn_Add_Copy.IsEnabled = false;
+                    this.btn_Add_Copy2.IsEnabled = false;
+                    this.btn_Add_Copy1.IsEnabled = false;
                     break;
                 default:
                     break;
