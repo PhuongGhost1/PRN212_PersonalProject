@@ -1,5 +1,6 @@
 ﻿using Candidate_BusinessObject;
 using Candidate_Service;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -80,7 +81,18 @@ namespace CandidateManagement_HoangTrongPhuong
 
         private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            SelectedCandidate = (CandidateProfile)((DataGrid)sender).SelectedItem;
+            if (sender is DataGrid dataGrid && dataGrid.SelectedItem is CandidateProfile candidate)
+            {
+                SelectedCandidate = candidate;
+
+                candidateId.Text = candidate.CandidateId;
+                birthday.Text = candidate.Birthday.ToString();
+                description.Text = candidate.ProfileShortDescription;
+                ImgURL.Text = candidate.ProfileUrl;
+                fullName.Text = candidate.Fullname;
+
+                JobPostingSelected.SelectedValue = candidate.PostingId;
+            }
         }
 
         private void btn_Add_Click(object sender, RoutedEventArgs e)
@@ -90,6 +102,23 @@ namespace CandidateManagement_HoangTrongPhuong
                 if (string.IsNullOrWhiteSpace(candidateId.Text))
                 {
                     MessageBox.Show("Candidate ID has not been selected!");
+                    return;
+                }
+                else if (string.IsNullOrWhiteSpace(fullName.Text))
+                {
+                    MessageBox.Show("FullName has not been selected!");
+                    return;
+                }else if (string.IsNullOrEmpty(ImgURL.Text))
+                {
+                    MessageBox.Show("Image URL has not been selected!");
+                    return;
+                }else if (!birthday.SelectedDate.HasValue)
+                {
+                    MessageBox.Show("BirthDay has not been selected!");
+                    return;
+                }else if (string.IsNullOrEmpty(description.Text))
+                {
+                    MessageBox.Show("BirthDay has not been selected!");
                     return;
                 }
 
@@ -235,6 +264,46 @@ namespace CandidateManagement_HoangTrongPhuong
             this.JobPostingSelected.ItemsSource = _jobPosting.GetJobPostings();
             this.JobPostingSelected.DisplayMemberPath = "JobPostingTitle";
             this.JobPostingSelected.SelectedValuePath = "PostingId";
+        }
+
+        private void btn_Clear_Click(object sender, RoutedEventArgs e)
+        {
+            candidateId.Text = string.Empty;
+            fullName.Text = string.Empty;
+            ImgURL.Text = string.Empty;
+            birthday.SelectedDate = null;
+            description.Text = string.Empty;
+            JobPostingSelected.SelectedItem = null;
+            searchTextBoxByName.Text = string.Empty;
+            searchTextBoxByBirthDay.SelectedDate = null;
+            SelectedCandidate = null;
+        }
+
+        private void searchTextBoxByName_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            SearchCandidates();
+        }
+
+        private void searchTextBoxByBirthDay_SelectedDateChanged(object sender, SelectionChangedEventArgs e)
+        {
+            SearchCandidates();
+        }
+
+        private void SearchCandidates()
+        {
+            string nameSearch = searchTextBoxByName?.Text?.ToLower() ?? string.Empty;
+            DateTime? birthDateSearch = searchTextBoxByBirthDay?.SelectedDate;
+
+            if (_candidateProfile == null)
+            {
+                MessageBox.Show("Welcome to our program!!!");
+                return;
+            }
+
+            var filteredCandidates = _candidateProfile.SearchByFullNameOrBirthday(nameSearch, birthDateSearch);
+
+            Candidates = new ObservableCollection<CandidateProfile>(filteredCandidates);
+            OnPropertyChanged(nameof(Candidates));
         }
     }
 }

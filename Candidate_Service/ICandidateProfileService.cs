@@ -15,5 +15,6 @@ namespace Candidate_Service
         bool AddCandidateProfile(CandidateProfile candidateProfile);
         bool UpdateCandidateProfile(string id, CandidateProfile candidateProfile);
         bool DeleteCandidateProfile(string id);
+        List<CandidateProfile> SearchByFullNameOrBirthday(string fullName, DateTime? birthday);
     }
 }

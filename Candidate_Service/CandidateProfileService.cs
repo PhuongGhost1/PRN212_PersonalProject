@@ -26,6 +26,8 @@ namespace Candidate_Service
 
         public List<CandidateProfile> GetCandidateProfiles() => _candidateProfileRepo.GetCandidateProfiles();
 
+        public List<CandidateProfile> SearchByFullNameOrBirthday(string fullName, DateTime? birthday) => _candidateProfileRepo.SearchByFullNameOrBirthday(fullName, birthday);
+
         public bool UpdateCandidateProfile(string id, CandidateProfile candidateProfile) => _candidateProfileRepo.UpdateCandidateProfile(id, candidateProfile);
     }
 }

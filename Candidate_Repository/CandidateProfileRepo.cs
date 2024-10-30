@@ -20,6 +20,8 @@ namespace Candidate_Repository
 
         public List<CandidateProfile> GetCandidateProfiles() => CandidateProfileDAO.getInstance.GetCandidateProfiles();
 
+        public List<CandidateProfile> SearchByFullNameOrBirthday(string fullName, DateTime? birthday) => CandidateProfileDAO.getInstance.SearchByFullNameOrBirthday(fullName, birthday);
+
         public bool UpdateCandidateProfile(string id,CandidateProfile candidateProfile) => CandidateProfileDAO.getInstance.UpdateCandidateProfile(id, candidateProfile);
     }
 }

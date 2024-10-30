@@ -28,6 +28,16 @@ namespace Candidate_DAO
             }
         }
 
+        public List<CandidateProfile> SearchByFullNameOrBirthday(string fullName, DateTime? birthday)
+        {
+            string lowerFullName = fullName?.ToLower();
+
+            return _context.CandidateProfiles.Where(c =>
+                (string.IsNullOrEmpty(lowerFullName) || c.Fullname.ToLower().Contains(lowerFullName)) &&
+                (!birthday.HasValue || (c.Birthday.HasValue && c.Birthday.Value.Date == birthday.Value.Date))
+            ).ToList();
+        }
+
         public bool CandidateProfileExists(string id)
         {
             return _context.CandidateProfiles.Any(e => e.CandidateId == id);

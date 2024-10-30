@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A930F528-5408-408B-8280-BA51D9ACDAA6}|Candidate_DAO\\Candidate_DAO.csproj|d:\\university\\k\u00EC 7(5.9.2024)\\prn221\\study\\prn221pe_fa22_trialtest_hoangtrongphuong\\candidate_dao\\candidatemanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A930F528-5408-408B-8280-BA51D9ACDAA6}|Candidate_DAO\\Candidate_DAO.csproj|solutionrelative:candidate_dao\\candidatemanagementcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A930F528-5408-408B-8280-BA51D9ACDAA6}|Candidate_DAO\\Candidate_DAO.csproj|d:\\university\\k\u00EC 7(5.9.2024)\\prn221\\study\\prn221pe_fa22_trialtest_hoangtrongphuong\\candidate_dao\\candidateprofiledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A930F528-5408-408B-8280-BA51D9ACDAA6}|Candidate_DAO\\Candidate_DAO.csproj|solutionrelative:candidate_dao\\candidateprofiledao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B6CB22DB-CEB6-408F-9C3A-713D7713A3E4}|CandidateManagement_HoangTrongPhuong\\CandidateManagement_HoangTrongPhuong.csproj|d:\\university\\k\u00EC 7(5.9.2024)\\prn221\\study\\prn221pe_fa22_trialtest_hoangtrongphuong\\candidatemanagement_hoangtrongphuong\\hraccountmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6CB22DB-CEB6-408F-9C3A-713D7713A3E4}|CandidateManagement_HoangTrongPhuong\\CandidateManagement_HoangTrongPhuong.csproj|solutionrelative:candidatemanagement_hoangtrongphuong\\hraccountmanagement.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A930F528-5408-408B-8280-BA51D9ACDAA6}|Candidate_DAO\\Candidate_DAO.csproj|d:\\university\\k\u00EC 7(5.9.2024)\\prn221\\study\\prn221pe_fa22_trialtest_hoangtrongphuong\\candidate_dao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A930F528-5408-408B-8280-BA51D9ACDAA6}|Candidate_DAO\\Candidate_DAO.csproj|solutionrelative:candidate_dao\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FF63F29-3A0F-45BB-A056-043E96F0B972}|CandidateManagementWebsite\\CandidateManagementWebsite.csproj|d:\\university\\k\u00EC 7(5.9.2024)\\prn221\\study\\prn221pe_fa22_trialtest_hoangtrongphuong\\candidatemanagementwebsite\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FF63F29-3A0F-45BB-A056-043E96F0B972}|CandidateManagementWebsite\\CandidateManagementWebsite.csproj|solutionrelative:candidatemanagementwebsite\\pages\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5FF63F29-3A0F-45BB-A056-043E96F0B972}|CandidateManagementWebsite\\CandidateManagementWebsite.csproj|d:\\university\\k\u00EC 7(5.9.2024)\\prn221\\study\\prn221pe_fa22_trialtest_hoangtrongphuong\\candidatemanagementwebsite\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FF63F29-3A0F-45BB-A056-043E96F0B972}|CandidateManagementWebsite\\CandidateManagementWebsite.csproj|solutionrelative:candidatemanagementwebsite\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B6CB22DB-CEB6-408F-9C3A-713D7713A3E4}|CandidateManagement_HoangTrongPhuong\\CandidateManagement_HoangTrongPhuong.csproj|d:\\university\\k\u00EC 7(5.9.2024)\\prn221\\study\\prn221pe_fa22_trialtest_hoangtrongphuong\\candidatemanagement_hoangtrongphuong\\hraccountmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B6CB22DB-CEB6-408F-9C3A-713D7713A3E4}|CandidateManagement_HoangTrongPhuong\\CandidateManagement_HoangTrongPhuong.csproj|solutionrelative:candidatemanagement_hoangtrongphuong\\hraccountmanagement.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CandidateProfileDAO.cs",
+              "DocumentMoniker": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\Candidate_DAO\\CandidateProfileDAO.cs",
+              "RelativeDocumentMoniker": "Candidate_DAO\\CandidateProfileDAO.cs",
+              "ToolTip": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\Candidate_DAO\\CandidateProfileDAO.cs",
+              "RelativeToolTip": "Candidate_DAO\\CandidateProfileDAO.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACQAAABrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T14:15:54.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HrAccountManagement.xaml",
+              "DocumentMoniker": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\CandidateManagement_HoangTrongPhuong\\HrAccountManagement.xaml",
+              "RelativeDocumentMoniker": "CandidateManagement_HoangTrongPhuong\\HrAccountManagement.xaml",
+              "ToolTip": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\CandidateManagement_HoangTrongPhuong\\HrAccountManagement.xaml",
+              "RelativeToolTip": "CandidateManagement_HoangTrongPhuong\\HrAccountManagement.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-30T10:58:51.527Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -40,61 +57,9 @@
               "RelativeDocumentMoniker": "CandidateManagement_HoangTrongPhuong\\HrAccountManagement.xaml.cs",
               "ToolTip": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\CandidateManagement_HoangTrongPhuong\\HrAccountManagement.xaml.cs",
               "RelativeToolTip": "CandidateManagement_HoangTrongPhuong\\HrAccountManagement.xaml.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAA/wAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACABAAAAAAAAAAD4vzIBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T08:58:03.279Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\Candidate_DAO\\appsettings.json",
-              "RelativeDocumentMoniker": "Candidate_DAO\\appsettings.json",
-              "ToolTip": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\Candidate_DAO\\appsettings.json",
-              "RelativeToolTip": "Candidate_DAO\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-30T08:43:03.76Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\CandidateManagementWebsite\\Pages\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "CandidateManagementWebsite\\Pages\\Login.cshtml.cs",
-              "ToolTip": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\CandidateManagementWebsite\\Pages\\Login.cshtml.cs",
-              "RelativeToolTip": "CandidateManagementWebsite\\Pages\\Login.cshtml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T08:40:38.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\CandidateManagementWebsite\\Pages\\Login.cshtml",
-              "RelativeDocumentMoniker": "CandidateManagementWebsite\\Pages\\Login.cshtml",
-              "ToolTip": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\CandidateManagementWebsite\\Pages\\Login.cshtml",
-              "RelativeToolTip": "CandidateManagementWebsite\\Pages\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T08:40:31.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CandidateManagementContext.cs",
-              "DocumentMoniker": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\Candidate_DAO\\CandidateManagementContext.cs",
-              "RelativeDocumentMoniker": "Candidate_DAO\\CandidateManagementContext.cs",
-              "ToolTip": "D:\\University\\k\u00EC 7(5.9.2024)\\PRN221\\Study\\PRN221PE_FA22_TrialTest_HoangTrongPhuong\\Candidate_DAO\\CandidateManagementContext.cs",
-              "RelativeToolTip": "Candidate_DAO\\CandidateManagementContext.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAA6wCAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T08:10:50.24Z",
               "EditorCaption": ""
             }
           ]

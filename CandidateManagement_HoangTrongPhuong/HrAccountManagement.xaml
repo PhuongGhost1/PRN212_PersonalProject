@@ -10,7 +10,7 @@
     <Grid x:Name="listBox" Margin="0,10,10,0">
         <DataGrid ItemsSource="{Binding Candidates}" 
                   SelectedItem="{Binding SelectedCandidate}" 
-                  Margin="0,183,0,73" 
+                  Margin="0,212,0,73" 
                   SelectionChanged="DataGrid_SelectionChanged" 
                   AutoGenerateColumns="True" 
                   HorizontalAlignment="Center" Width="780"/>
@@ -38,5 +38,16 @@
                 Margin="564,47,0,0" 
                 VerticalAlignment="Top" 
                 Width="120" IsDropDownOpen="True" />
+        <Button x:Name="btn_Clear" Content="Clear" HorizontalAlignment="Left" Margin="6,187,0,0" VerticalAlignment="Top" Width="60" Background="#FFF4E940" Click="btn_Clear_Click"/>
+        <TextBox x:Name="searchTextBoxByName" 
+                 HorizontalAlignment="Left" 
+                 Margin="202,183,0,0" 
+                 TextWrapping="Wrap" 
+                 Text="Search by full name" 
+                 VerticalAlignment="Top" 
+                 Width="140" 
+                 TextChanged="searchTextBoxByName_TextChanged" Height="24"/>
+        <DatePicker x:Name="searchTextBoxByBirthDay" HorizontalAlignment="Left" Margin="370,183,0,0" VerticalAlignment="Top" Width="140" RenderTransformOrigin="0.496,2.549" SelectedDateChanged="searchTextBoxByBirthDay_SelectedDateChanged"/>
+
     </Grid>
 </Window>

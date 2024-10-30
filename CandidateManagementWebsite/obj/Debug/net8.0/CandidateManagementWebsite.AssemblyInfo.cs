@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CandidateManagementWebsite")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c76f823d65d480738713549551e22c29c5d038f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c4666e7fb8fc6f6dd6bd48d1498551f899fbde7b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CandidateManagementWebsite")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CandidateManagementWebsite")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
